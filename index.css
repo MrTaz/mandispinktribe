@@ -95,6 +95,9 @@
   display: none;
   margin-right: 32px;
 }
+.home-register {
+  text-decoration: none;
+}
 .home-burger-menu {
   display: none;
 }
@@ -230,6 +233,9 @@
   display: flex;
   align-items: flex-end;
   flex-direction: row;
+}
+.home-hero-button1 {
+  text-decoration: none;
 }
 .home-hero-button2 {
   animation-name: none;
