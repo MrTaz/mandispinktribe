@@ -736,6 +736,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-image {
+    object-fit: scale-down;
+  }
   .home-hero-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -828,6 +831,10 @@
   }
   .home-container01 {
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-image {
+    height: 200;
+    object-fit: scale-down;
   }
   .home-btn-group {
     flex-direction: column;
