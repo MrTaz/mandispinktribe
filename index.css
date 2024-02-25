@@ -219,6 +219,8 @@
   object-position: 50% 40%;
 }
 .home-hero-sub-heading {
+  width: auto;
+  height: auto;
   font-size: 18px;
   text-align: center;
 }
@@ -232,6 +234,7 @@
 .home-hero-button2 {
   animation-name: none;
   animation-delay: 0s;
+  text-decoration: none;
   animation-duration: 300ms;
   animation-direction: normal;
   animation-iteration-count: 1;
@@ -327,7 +330,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text35 {
+.home-text21 {
   text-transform: uppercase;
 }
 .home-container07 {
@@ -336,7 +339,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text36 {
+.home-text22 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -360,7 +363,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text39 {
+.home-text25 {
   line-height: 150%;
 }
 .home-container10 {
@@ -371,7 +374,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text40 {
+.home-text26 {
   line-height: 150%;
 }
 .home-button {
@@ -384,7 +387,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text41 {
+.home-text27 {
   text-transform: uppercase;
 }
 .home-container12 {
@@ -393,7 +396,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text42 {
+.home-text28 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -402,7 +405,7 @@
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text45 {
+.home-text31 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
@@ -423,7 +426,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text46 {
+.home-text32 {
   line-height: 150%;
 }
 .home-container15 {
@@ -434,7 +437,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text48 {
+.home-text34 {
   line-height: 150%;
 }
 .home-container16 {
@@ -445,7 +448,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text49 {
+.home-text35 {
   line-height: 150%;
 }
 .home-button1 {
@@ -458,7 +461,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text50 {
+.home-text36 {
   text-transform: uppercase;
 }
 .home-container18 {
@@ -467,7 +470,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text53 {
+.home-text39 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -476,7 +479,7 @@
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text56 {
+.home-text42 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
@@ -496,7 +499,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text57 {
+.home-text43 {
   line-height: 150%;
 }
 .home-container21 {
@@ -507,7 +510,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text59 {
+.home-text45 {
   line-height: 150%;
 }
 .home-container22 {
@@ -518,7 +521,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text60 {
+.home-text46 {
   line-height: 150%;
 }
 .home-button2 {
@@ -551,10 +554,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text64 {
+.home-text50 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text65 {
+.home-text51 {
   text-align: left;
 }
 .home-container24 {
@@ -695,7 +698,7 @@
     width: 100%;
     max-width: 450px;
   }
-  .home-text65 {
+  .home-text51 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -787,7 +790,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text65 {
+  .home-text51 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -806,7 +809,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text68 {
+  .home-text54 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -856,7 +859,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text68 {
+  .home-text54 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
