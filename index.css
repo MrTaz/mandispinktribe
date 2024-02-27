@@ -317,6 +317,7 @@
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-fiveunits);
   grid-template-columns: 1fr 1fr;
 }
 .home-join-us {
