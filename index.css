@@ -319,6 +319,12 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   grid-template-columns: 1fr 1fr;
 }
+.home-feature-card2 {
+  text-decoration: none;
+}
+.home-feature-card3 {
+  text-decoration: none;
+}
 .home-join-us {
   flex: 0 0 auto;
   width: 100%;
@@ -393,7 +399,7 @@
 .home-text23 {
   line-height: 150%;
 }
-.home-link {
+.home-link1 {
   width: 100%;
   font-style: normal;
   text-align: center;
@@ -478,7 +484,7 @@
   line-height: 150%;
   text-decoration: underline;
 }
-.home-link1 {
+.home-link2 {
   width: 100%;
   font-style: normal;
   text-align: center;
