@@ -263,7 +263,12 @@
   list-style-position: outside;
 }
 .list-item {
+  color: darkslategray;
   display: list-item;
+  font-size: 12px;
+  list-style: georgian outside;
+  font-weight: 300;
+  padding-bottom: 10px;
 }
 .teleport-show {
   display: flex !important;
