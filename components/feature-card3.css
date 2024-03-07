@@ -5,10 +5,10 @@
   align-items: center;
   flex-direction: column;
 }
-.feature-card3-icon {
-  fill: var(--dl-color-gray-500);
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+.feature-card3-image {
+  width: auto;
+  height: 100px;
+  object-fit: cover;
 }
 .feature-card3-text {
   font-style: normal;
