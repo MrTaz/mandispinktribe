@@ -268,9 +268,21 @@
   height: 72px;
   object-fit: contain;
 }
+.golf-sponsorship-levels-link1 {
+  display: contents;
+}
+.golf-sponsorship-levels-image3 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.golf-sponsorship-levels-link2 {
+  display: contents;
+}
 .golf-sponsorship-levels-text13 {
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .golf-sponsorship-levels-text19 {
   font-weight: 700;
