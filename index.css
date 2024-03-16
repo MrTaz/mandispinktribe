@@ -589,6 +589,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-link3 {
+  display: contents;
+}
+.home-question41 {
+  text-decoration: none;
+}
 .home-footer {
   flex: 0 0 auto;
   width: 100%;

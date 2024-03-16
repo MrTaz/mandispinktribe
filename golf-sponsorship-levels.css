@@ -36,6 +36,8 @@
 
 
 
+
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -226,13 +228,18 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .golf-sponsorship-levels-text05 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+}
+.golf-sponsorship-levels-text06 {
   color: var(--dl-color-gray-700);
   width: 70%;
   font-size: 1.15rem;
   text-align: justify;
   padding-bottom: var(--dl-space-space-unit);
 }
-.golf-sponsorship-levels-text09 {
+.golf-sponsorship-levels-text10 {
   color: var(--dl-color-gray-700);
   width: 70%;
   font-size: 1.15rem;
@@ -261,23 +268,23 @@
   height: 72px;
   object-fit: contain;
 }
-.golf-sponsorship-levels-text12 {
+.golf-sponsorship-levels-text13 {
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.golf-sponsorship-levels-text18 {
+.golf-sponsorship-levels-text19 {
   font-weight: 700;
 }
-.golf-sponsorship-levels-text21 {
+.golf-sponsorship-levels-text22 {
   font-weight: 700;
 }
-.golf-sponsorship-levels-text24 {
+.golf-sponsorship-levels-text25 {
   font-weight: 700;
 }
-.golf-sponsorship-levels-text27 {
+.golf-sponsorship-levels-text28 {
   font-weight: 700;
 }
-.golf-sponsorship-levels-text30 {
+.golf-sponsorship-levels-text31 {
   font-weight: 700;
 }
 .golf-sponsorship-levels-container7 {
@@ -291,7 +298,7 @@
   .golf-sponsorship-levels-text {
     text-align: center;
   }
-  .golf-sponsorship-levels-text05 {
+  .golf-sponsorship-levels-text06 {
     text-align: center;
   }
   .golf-sponsorship-levels-container7 {

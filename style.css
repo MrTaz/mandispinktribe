@@ -305,6 +305,57 @@
 .AccordionHeader input:checked ~ .AccordionHeaderLabel {
   display: none;
 }
+.classname1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  background: radial-gradient(circle at top left, white, lightblue 70%);
+}
+.background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background: radial-gradient(circle at top left, white, lightblue 70%);
+}
+.hill {
+  width: 200%;
+  bottom: 0;
+  height: 50;
+  z-index: 1;
+  position: absolute;
+  transform: rotate(-5deg);
+  border-radius: 50%/100%;
+}
+.hill1 {
+  left: -50%;
+  bottom: 0;
+  z-index: 3;
+  transform: scaleX(-1) rotate(-5deg);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background-color: #00ff00;
+}
+.hill2 {
+  left: -75%;
+  bottom: 15%;
+  z-index: 2;
+  transform: scaleX(-1) rotate(5deg);
+  border-radius: 50% 50% 0 0 / 120% 80% 0 0;
+  background-color: #9acd32;
+}
+.hill3 {
+  left: -100%;
+  bottom: 30%;
+  z-index: 1;
+  transform: rotate(-5deg);
+  border-radius: 50% 50% 0 0 / 130% 70% 0 0;
+  background-color: #006400;
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
