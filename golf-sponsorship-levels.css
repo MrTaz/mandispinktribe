@@ -272,7 +272,7 @@
   display: contents;
 }
 .golf-sponsorship-levels-image3 {
-  width: 200px;
+  width: var(--dl-size-size-xxlarge);
   object-fit: cover;
   text-decoration: none;
 }

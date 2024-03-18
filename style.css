@@ -320,41 +320,80 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   background: radial-gradient(circle at top left, white, lightblue 70%);
 }
-.hill {
-  width: 200%;
-  bottom: 0;
-  height: 50;
-  z-index: 1;
+.hills {
+  top: 50%;
+  width: 100vw;
+  height: calc( 100vh - 45% );
+  display: grid;
   position: absolute;
-  transform: rotate(-5deg);
-  border-radius: 50%/100%;
+  place-items: center;
+  grid-template: 1fr / 1fr;
 }
-.hill1 {
-  left: -50%;
-  bottom: 0;
-  z-index: 3;
-  transform: scaleX(-1) rotate(-5deg);
-  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-  background-color: #00ff00;
-}
-.hill2 {
-  left: -75%;
-  bottom: 15%;
-  z-index: 2;
-  transform: scaleX(-1) rotate(5deg);
-  border-radius: 50% 50% 0 0 / 120% 80% 0 0;
-  background-color: #9acd32;
-}
-.hill3 {
-  left: -100%;
-  bottom: 30%;
+.hills > .back {
   z-index: 1;
-  transform: rotate(-5deg);
-  border-radius: 50% 50% 0 0 / 130% 70% 0 0;
-  background-color: #006400;
+  background-color: darkgreen;
+}
+.hills > * {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+.hills > .middle {
+  z-index: 2;
+  background-color: yellowgreen;
+}
+.hills > .front {
+  z-index: 3;
+  background-color: green;
+}
+
+
+
+.hill-shape {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape);
+}
+.hill-shape1 {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape1);
+}
+.hill-shape2 {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape2);
+}
+.golf-pin-flag-pole {
+  left: 83%;
+  width: calc( 10vw - 9% );
+  bottom: 30%;
+  height: calc( 100vh - 78% );
+  z-index: 10;
+  position: absolute;
+  background: linear-gradient(to right, black 0%, white 50%, black 100%);
+  background-color: black;
+}
+.golf-pin-flag {
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 0;
+  z-index: 10;
+  position: absolute;
+  border-top: 25px solid transparent;
+  border-left: 50px solid red;
+  border-bottom: 5px solid transparent;
+}
+.apple-tree {
+  left: -50%;
+  width: 100vw;
+  bottom: 30%;
+  z-index: 10;
+  position: absolute;
+  max-height: 50%;
 }
 .heading3 {
   font-size: 20px;
