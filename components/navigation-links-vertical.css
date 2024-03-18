@@ -30,6 +30,7 @@
   text-decoration: none;
 }
 
+
 @media(max-width: 767px) {
   .navigation-links-vertical-nav {
     align-items: flex-start;

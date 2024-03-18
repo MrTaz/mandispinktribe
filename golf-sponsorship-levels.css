@@ -39,6 +39,7 @@
 
 
 
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -60,6 +61,62 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-navlink4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.navigation-links-vertical-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navigation-links-vertical-navlink {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-links-vertical-navlink1 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-links-vertical-navlink2 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-links-vertical-navlink3 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-links-vertical-navlink4 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+
+
+@media(max-width: 767px) {
+  .navigation-links-vertical-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-vertical-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-vertical-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-vertical-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-vertical-navlink4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -279,25 +336,13 @@
   align-items: center;
   flex-direction: column;
 }
-.golf-sponsorship-levels-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+.golf-sponsorship-levels-navbar-interactive {
   justify-content: space-between;
-  background-image: linear-gradient(90deg, rgba(66,24,44,0.9024203431372549) 15%, rgba(66,24,44,1) 27%);
-}
-.golf-sponsorship-levels-navlink {
-  display: contents;
 }
 .golf-sponsorship-levels-image {
   height: 2rem;
-  text-decoration: none;
 }
-.golf-sponsorship-levels-nav {
+.golf-sponsorship-levels-desktop-menu {
   display: flex;
 }
 .golf-sponsorship-levels-btn-group {
@@ -329,43 +374,44 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.golf-sponsorship-levels-nav1 {
+.golf-sponsorship-levels-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.golf-sponsorship-levels-container2 {
+.golf-sponsorship-levels-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.golf-sponsorship-levels-image1 {
+.golf-sponsorship-levels-logo {
   height: 2rem;
 }
-.golf-sponsorship-levels-menu-close {
+.golf-sponsorship-levels-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.golf-sponsorship-levels-icon02 {
+.golf-sponsorship-levels-icon2 {
+  fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.golf-sponsorship-levels-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.golf-sponsorship-levels-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
-.golf-sponsorship-levels-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.golf-sponsorship-levels-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+.golf-sponsorship-levels-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  justify-content: space-between;
 }
 .golf-sponsorship-levels-features {
   width: 100%;
@@ -416,7 +462,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.golf-sponsorship-levels-image2 {
+.golf-sponsorship-levels-image1 {
   flex: 1;
   width: 136px;
   height: 72px;
@@ -425,7 +471,7 @@
 .golf-sponsorship-levels-link1 {
   display: contents;
 }
-.golf-sponsorship-levels-image3 {
+.golf-sponsorship-levels-image2 {
   width: var(--dl-size-size-xxlarge);
   object-fit: cover;
   text-decoration: none;
@@ -472,11 +518,7 @@
   }
 }
 @media(max-width: 767px) {
-  .golf-sponsorship-levels-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .golf-sponsorship-levels-nav {
+  .golf-sponsorship-levels-desktop-menu {
     display: none;
   }
   .golf-sponsorship-levels-btn-group {
@@ -487,6 +529,9 @@
     align-items: center;
     justify-content: center;
   }
+  .golf-sponsorship-levels-icon {
+    fill: white;
+  }
   .golf-sponsorship-levels-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -496,8 +541,8 @@
   }
 }
 @media(max-width: 479px) {
-  .golf-sponsorship-levels-header {
-    padding: var(--dl-space-space-unit);
+  .golf-sponsorship-levels-icon {
+    fill: white;
   }
   .golf-sponsorship-levels-mobile-menu {
     padding: 16px;
