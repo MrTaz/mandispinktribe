@@ -325,7 +325,7 @@
 }
 .hills {
   top: 50%;
-  width: 100vw;
+  width: 100%;
   height: calc( 100vh - 45% );
   display: grid;
   position: absolute;
@@ -368,7 +368,7 @@
 }
 .golf-pin-flag-pole {
   left: 83%;
-  width: calc( 10vw - 9% );
+  width: calc( 10vw - 9.8% );
   bottom: 30%;
   height: calc( 100vh - 78% );
   z-index: 10;
