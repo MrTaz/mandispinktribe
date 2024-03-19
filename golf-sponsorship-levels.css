@@ -413,6 +413,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.golf-sponsorship-levels-register1 {
+  text-decoration: none;
+}
 .golf-sponsorship-levels-features {
   width: 100%;
   display: flex;
