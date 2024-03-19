@@ -1,0 +1,30 @@
+.feature-card-golf-event-details-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card-golf-event-details-text {
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card-golf-event-details-text1 {
+  color: var(--dl-color-gray-700);
+}
+.feature-card-golf-event-details-root-class-name {
+  width: 100%;
+}
+
+
+
+
+@media(max-width: 479px) {
+  .feature-card-golf-event-details-text {
+    font-style: normal;
+    font-weight: 600;
+  }
+}
