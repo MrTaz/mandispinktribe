@@ -350,15 +350,15 @@
 .home-hero {
   flex: 0 0 auto;
   width: 100%;
-  height: calc(100vh - 100px);
   display: flex;
   margin-top: 96px;
+  min-height: 100vh;
   align-items: flex-start;
   justify-content: center;
 }
 .home-hero1 {
-  height: calc(100vh - 100px);
   position: relative;
+  min-height: 100vh;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(0deg, rgba(255, 48, 165, 0.24) 0.00%,rgba(255, 48, 165, 0.84) 99.00%);
@@ -472,6 +472,9 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   grid-template-columns: 1fr 1fr;
 }
+.home-feature-card1 {
+  text-decoration: none;
+}
 .home-feature-card2 {
   text-decoration: none;
 }
@@ -565,6 +568,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
+  text-decoration: none;
 }
 .home-text24 {
   text-transform: uppercase;
@@ -578,6 +582,7 @@
 .home-basic-plan-pricing {
   font-size: 4rem;
   font-weight: 700;
+  text-decoration: none;
 }
 .home-container13 {
   width: 100%;
@@ -597,6 +602,9 @@
 .home-text28 {
   line-height: 150%;
 }
+.home-text29 {
+  text-decoration: none;
+}
 .home-container15 {
   gap: 4px;
   flex: 0 0 auto;
@@ -608,6 +616,9 @@
 .home-text30 {
   line-height: 150%;
 }
+.home-free-plan-features2 {
+  text-decoration: none;
+}
 .home-container16 {
   gap: 4px;
   flex: 0 0 auto;
@@ -618,6 +629,9 @@
 }
 .home-text31 {
   line-height: 150%;
+}
+.home-free-plan-features3 {
+  text-decoration: none;
 }
 .home-container17 {
   gap: 4px;
@@ -742,7 +756,37 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink3 {
+  display: contents;
+}
+.home-question0 {
+  text-decoration: none;
+}
+.home-navlink4 {
+  display: contents;
+}
+.home-question1 {
+  text-decoration: none;
+}
 .home-link3 {
+  display: contents;
+}
+.home-question2 {
+  text-decoration: none;
+}
+.home-link4 {
+  display: contents;
+}
+.home-question3 {
+  text-decoration: none;
+}
+.home-navlink5 {
+  display: contents;
+}
+.home-question4 {
+  text-decoration: none;
+}
+.home-link5 {
   display: contents;
 }
 .home-question41 {
