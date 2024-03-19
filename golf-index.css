@@ -844,6 +844,7 @@
 }
 .golf-tournament-sponsored-by-contracts-risk-management-container12 {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-container13 {
