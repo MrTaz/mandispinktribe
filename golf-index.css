@@ -1005,9 +1005,7 @@
   display: contents;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-image5 {
-  width: var(--dl-size-size-maxwidth);
-  object-fit: cover;
-  text-decoration: none;
+  width: 100%;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-container22 {
   flex: 0 0 auto;
