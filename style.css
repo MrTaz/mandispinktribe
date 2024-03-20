@@ -411,6 +411,60 @@
   position: absolute;
   max-height: 50%;
 }
+.dateRibbon {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+}
+.dateRibbon::before {
+  border: 5px solid #2980b9;
+  content: '';
+  display: block;
+  z-index: -1;
+  position: absolute;
+}
+.dateRibbon::after {
+  border: 5px solid #2980b9;
+  content: '';
+  display: block;
+  z-index: -1;
+  position: absolute;
+}
+.dateRibbon span {
+  font: 700 18px/1 'Lato', sans-serif;
+  color: #fff;
+  width: 700px;
+  display: block;
+  padding: 20px 0;
+  position: absolute;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  background-color: var(--dl-color-custom-primary1);
+}
+.dateRibbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.dateRibbon-top-left::before {
+  top: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.dateRibbon-top-left::after {
+  left: 0;
+  bottom: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.dateRibbon-top-left span {
+  top: 190;
+  right: -100px;
+  transform: rotate(-45deg);
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
