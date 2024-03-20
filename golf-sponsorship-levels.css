@@ -72,6 +72,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.navigation-links-vertical-navlink {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .navigation-links-vertical-link {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
@@ -92,17 +97,16 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link4 {
-  color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 
 
 @media(max-width: 767px) {
   .navigation-links-vertical-nav {
     align-items: flex-start;
     flex-direction: column;
+  }
+  .navigation-links-vertical-link {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-vertical-link1 {
     margin-left: 0;
@@ -113,10 +117,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-vertical-link3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-vertical-link4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -341,6 +341,7 @@
 }
 .golf-sponsorship-levels-image {
   height: 2rem;
+  text-decoration: none;
 }
 .golf-sponsorship-levels-desktop-menu {
   display: flex;
@@ -386,8 +387,12 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.golf-sponsorship-levels-navlink1 {
+  display: contents;
+}
 .golf-sponsorship-levels-logo {
   height: 2rem;
+  text-decoration: none;
 }
 .golf-sponsorship-levels-close-menu {
   display: flex;
