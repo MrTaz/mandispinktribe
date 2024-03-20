@@ -52,7 +52,7 @@
     />
     <link
       rel="shortcut icon"
-      href="/iconartboard 1.png"
+      href="public/iconartboard 1.png"
       type="icon/png"
       sizes="32x32"
     />
@@ -166,16 +166,16 @@
                 <a href="index.html" class="navigation-links-navlink">
                   <span>Home</span>
                 </a>
-                <a href="index.html" class="navigation-links-navlink1">
+                <a href="#aboutus" class="navigation-links-link">
                   <span>About</span>
                 </a>
-                <a href="index.html" class="navigation-links-navlink2">
+                <a href="#join" class="navigation-links-link1">
                   <span>Events</span>
                 </a>
-                <a href="index.html" class="navigation-links-navlink3">
+                <a href="#learnmore" class="navigation-links-link2">
                   <span>Get Involved</span>
                 </a>
-                <a href="index.html" class="navigation-links-navlink4">
+                <a href="#faq" class="navigation-links-link3">
                   <span>Contact</span>
                 </a>
               </nav>
@@ -240,34 +240,22 @@
                   <nav
                     class="navigation-links-vertical-nav navigation-links-vertical-root-class-name"
                   >
-                    <a
-                      href="index.html"
-                      class="navigation-links-vertical-navlink"
-                    >
+                    <a href="#top" class="navigation-links-vertical-link">
                       <span>Home</span>
                     </a>
-                    <a
-                      href="index.html"
-                      class="navigation-links-vertical-navlink1"
-                    >
+                    <a href="#aboutus" class="navigation-links-vertical-link1">
                       <span>About</span>
                     </a>
-                    <a
-                      href="index.html"
-                      class="navigation-links-vertical-navlink2"
-                    >
+                    <a href="#join" class="navigation-links-vertical-link2">
                       <span>Events</span>
                     </a>
                     <a
-                      href="index.html"
-                      class="navigation-links-vertical-navlink3"
+                      href="#learnmore"
+                      class="navigation-links-vertical-link3"
                     >
                       <span>Get Involved</span>
                     </a>
-                    <a
-                      href="index.html"
-                      class="navigation-links-vertical-navlink4"
-                    >
+                    <a href="#faq" class="navigation-links-vertical-link4">
                       <span>Contact</span>
                     </a>
                   </nav>
@@ -523,21 +511,21 @@
               class="golf-tournament-sponsored-by-contracts-risk-management-container12"
             >
               <div
-                class="feature-card-golf-event-details-feature-card feature-card-golf-event-details-root-class-name1"
+                class="golf-event-details-feature-card-feature-card golf-event-details-feature-card-root-class-name1"
               >
-                <h2 class="feature-card-golf-event-details-text">
+                <h2 class="golf-event-details-feature-card-text">
                   <span>Date and Time</span>
                 </h2>
-                <span class="feature-card-golf-event-details-text1">
+                <span class="golf-event-details-feature-card-text1">
                   <span>
                     Date: Saturday, June 22nd | Tee Time: 1:30 PM — Join us for
                     an unforgettable day of golf, camaraderie, and purpose.
                   </span>
                 </span>
-                <slot class="feature-card-golf-event-details-custom-slot">
+                <slot class="golf-event-details-feature-card-custom-slot">
                   <svg
                     viewBox="0 0 1024 1024"
-                    class="feature-card-golf-event-details-icon06"
+                    class="golf-event-details-feature-card-icon06"
                   >
                     <path
                       d="M320 384h128v128h-128zM512 384h128v128h-128zM704 384h128v128h-128zM128 768h128v128h-128zM320 768h128v128h-128zM512 768h128v128h-128zM320 576h128v128h-128zM512 576h128v128h-128zM704 576h128v128h-128zM128 576h128v128h-128zM832 0v64h-128v-64h-448v64h-128v-64h-128v1024h960v-1024h-128zM896 960h-832v-704h832v704z"
@@ -546,12 +534,12 @@
                 </slot>
               </div>
               <div
-                class="feature-card-golf-event-details-feature-card feature-card-golf-event-details-root-class-name4"
+                class="golf-event-details-feature-card-feature-card golf-event-details-feature-card-root-class-name4"
               >
-                <h2 class="feature-card-golf-event-details-text">
+                <h2 class="golf-event-details-feature-card-text">
                   <span>Entry Fee</span>
                 </h2>
-                <span class="feature-card-golf-event-details-text1">
+                <span class="golf-event-details-feature-card-text1">
                   <span>
                     $150 per player. Your participation includes 18 holes of
                     golf, a cart, lunch, and the chance to win prizes—all while
@@ -559,10 +547,10 @@
                     spot in this inaugural event!
                   </span>
                 </span>
-                <slot class="feature-card-golf-event-details-custom-slot">
+                <slot class="golf-event-details-feature-card-custom-slot">
                   <svg
                     viewBox="0 0 583.4605714285714 1024"
-                    class="feature-card-golf-event-details-icon08"
+                    class="golf-event-details-feature-card-icon08"
                   >
                     <path
                       d="M558.857 677.143c0 116.571-83.429 208.571-204.571 228.571v100c0 10.286-8 18.286-18.286 18.286h-77.143c-9.714 0-18.286-8-18.286-18.286v-100c-133.714-18.857-206.857-98.857-209.714-102.286-5.714-6.857-6.286-16.571-1.143-23.429l58.857-77.143c2.857-4 8-6.286 13.143-6.857s10.286 1.143 13.714 5.143c1.143 0.571 81.143 77.143 182.286 77.143 56 0 116.571-29.714 116.571-94.286 0-54.857-67.429-81.714-144.571-112.571-102.857-40.571-230.857-92-230.857-235.429 0-105.143 82.286-192 201.714-214.857v-102.857c0-10.286 8.571-18.286 18.286-18.286h77.143c10.286 0 18.286 8 18.286 18.286v100.571c116 13.143 177.714 76 180 78.286 5.714 6.286 6.857 14.857 2.857 21.714l-46.286 83.429c-2.857 5.143-7.429 8.571-13.143 9.143-5.714 1.143-10.857-0.571-15.429-4-0.571-0.571-69.714-61.714-155.429-61.714-72.571 0-122.857 36-122.857 88 0 60.571 69.714 87.429 150.857 118.857 105.143 40.571 224 86.857 224 224.571z"
@@ -571,22 +559,22 @@
                 </slot>
               </div>
               <div
-                class="feature-card-golf-event-details-feature-card feature-card-golf-event-details-root-class-name3"
+                class="golf-event-details-feature-card-feature-card golf-event-details-feature-card-root-class-name3"
               >
-                <h2 class="feature-card-golf-event-details-text">
+                <h2 class="golf-event-details-feature-card-text">
                   <span>Location</span>
                 </h2>
-                <span class="feature-card-golf-event-details-text1">
+                <span class="golf-event-details-feature-card-text1">
                   <span>
                     Apple Hill Golf Club, 69 East RoadEast Kingston, NH 03827 —
                     A picturesque course that offers both challenge and charm,
                     perfect for our gathering of hope and action.
                   </span>
                 </span>
-                <slot class="feature-card-golf-event-details-custom-slot">
+                <slot class="golf-event-details-feature-card-custom-slot">
                   <svg
                     viewBox="0 0 1024 1024"
-                    class="feature-card-golf-event-details-icon10"
+                    class="golf-event-details-feature-card-icon10"
                   >
                     <path
                       d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 516c-108.248 0-196-87.752-196-196s87.752-196 196-196 196 87.752 196 196-87.752 196-196 196zM388 320c0-68.483 55.517-124 124-124s124 55.517 124 124c0 68.483-55.517 124-124 124s-124-55.517-124-124z"
@@ -595,12 +583,12 @@
                 </slot>
               </div>
               <div
-                class="feature-card-golf-event-details-feature-card feature-card-golf-event-details-root-class-name2"
+                class="golf-event-details-feature-card-feature-card golf-event-details-feature-card-root-class-name2"
               >
-                <h2 class="feature-card-golf-event-details-text">
+                <h2 class="golf-event-details-feature-card-text">
                   <span>Registration</span>
                 </h2>
-                <span class="feature-card-golf-event-details-text1">
+                <span class="golf-event-details-feature-card-text1">
                   <span>
                     Seize the moment and ensure your spot on the green—register
                     online now to join us in making strides against breast
@@ -608,10 +596,10 @@
                     to secure your participation.
                   </span>
                 </span>
-                <slot class="feature-card-golf-event-details-custom-slot">
+                <slot class="golf-event-details-feature-card-custom-slot">
                   <svg
                     viewBox="0 0 1024 1024"
-                    class="feature-card-golf-event-details-icon12"
+                    class="golf-event-details-feature-card-icon12"
                   >
                     <path
                       d="M928 128h-288c0-70.692-57.306-128-128-128-70.692 0-128 57.308-128 128h-288c-17.672 0-32 14.328-32 32v832c0 17.674 14.328 32 32 32h832c17.674 0 32-14.326 32-32v-832c0-17.672-14.326-32-32-32zM512 64c35.346 0 64 28.654 64 64s-28.654 64-64 64c-35.346 0-64-28.654-64-64s28.654-64 64-64zM896 960h-768v-768h128v96c0 17.672 14.328 32 32 32h448c17.674 0 32-14.328 32-32v-96h128v768z"
@@ -693,18 +681,18 @@
               class="golf-tournament-sponsored-by-contracts-risk-management-container17"
             >
               <div
-                class="testimonial-card1-testimonial-card testimonial-card1-root-class-name2"
+                class="golf-event-testimonial-card-testimonial-card golf-event-testimonial-card-root-class-name2"
               >
                 <img
                   alt="Champion the Course"
                   src="public/golfer-200h.webp"
-                  class="testimonial-card1-image"
+                  class="golf-event-testimonial-card-image"
                 />
-                <div class="testimonial-card1-testimonial">
-                  <span class="testimonial-card1-text">
+                <div class="golf-event-testimonial-card-testimonial">
+                  <span class="golf-event-testimonial-card-text">
                     <span>Champion the Course</span>
                   </span>
-                  <span class="testimonial-card1-text1">
+                  <span class="golf-event-testimonial-card-text1">
                     <span>
                       Tackle the picturesque Apple Hill Golf Club, a course that
                       challenges and delights in equal measure. Feel the rush of
@@ -740,18 +728,18 @@
                 </div>
               </div>
               <div
-                class="testimonial-card1-testimonial-card testimonial-card1-root-class-name"
+                class="golf-event-testimonial-card-testimonial-card golf-event-testimonial-card-root-class-name"
               >
                 <img
                   alt="Swing with Purpose"
                   src="public/golfers2-200h.webp"
-                  class="testimonial-card1-image"
+                  class="golf-event-testimonial-card-image"
                 />
-                <div class="testimonial-card1-testimonial">
-                  <span class="testimonial-card1-text">
+                <div class="golf-event-testimonial-card-testimonial">
+                  <span class="golf-event-testimonial-card-text">
                     <span>Swing with Purpose</span>
                   </span>
-                  <span class="testimonial-card1-text1">
+                  <span class="golf-event-testimonial-card-text1">
                     <span>
                       Every stroke contributes to our fight against breast
                       cancer. Join hands with Mandi’s Pink Tribe in making a
@@ -787,18 +775,18 @@
                 </div>
               </div>
               <div
-                class="testimonial-card1-testimonial-card testimonial-card1-root-class-name1"
+                class="golf-event-testimonial-card-testimonial-card golf-event-testimonial-card-root-class-name1"
               >
                 <img
                   alt="More Than a Game"
                   src="public/gofl-tent-200h.webp"
-                  class="testimonial-card1-image"
+                  class="golf-event-testimonial-card-image"
                 />
-                <div class="testimonial-card1-testimonial">
-                  <span class="testimonial-card1-text">
+                <div class="golf-event-testimonial-card-testimonial">
+                  <span class="golf-event-testimonial-card-text">
                     <span>More Than a Game</span>
                   </span>
-                  <span class="testimonial-card1-text1">
+                  <span class="golf-event-testimonial-card-text1">
                     <span>
                       Engage in a day filled with more than just golf. From
                       enjoyable local food to exciting entertainment, there’s a
@@ -898,8 +886,8 @@
                 class="golf-tournament-sponsored-by-contracts-risk-management-link10"
               >
                 <img
-                  src="public/crm_logo_full-name_rgb.png"
                   alt="image"
+                  src="public/crm_logo_full-name_rgb.png"
                   class="golf-tournament-sponsored-by-contracts-risk-management-image5"
                 />
               </a>

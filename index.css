@@ -1,25 +1,88 @@
-.feature-card-container {
+.main-page-events-feature-card-container {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
 }
-@media(max-width: 767px) {
-  .feature-card-feature-card {
-    flex-direction: row;
-  }
-  .feature-card-container {
-    flex-direction: column;
-  }
+.main-page-events-feature-card-custom-slot {
+  display: contents;
 }
-@media(max-width: 479px) {
-  .feature-card-container {
-    flex-direction: column;
+.main-page-events-feature-card-icon10 {
+  width: 5rem;
+  height: 5rem;
+}
+@media(max-width: 767px) {
+  .main-page-events-feature-card-feature-card {
+    flex-direction: row;
   }
 }
 
-.question1-container {
+.main-page-events-feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-page-events-feature-card-custom-slot {
+  display: contents;
+}
+.main-page-events-feature-card-icon12 {
+  width: 5rem;
+  height: 5rem;
+}
+@media(max-width: 767px) {
+  .main-page-events-feature-card-feature-card {
+    flex-direction: row;
+  }
+}
+
+.main-page-events-feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-page-events-feature-card-custom-slot {
+  display: contents;
+}
+.main-page-events-feature-card-icon14 {
+  width: 5rem;
+  height: 5rem;
+}
+@media(max-width: 767px) {
+  .main-page-events-feature-card-feature-card {
+    flex-direction: row;
+  }
+}
+
+.main-page-events-feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-page-events-feature-card-custom-slot {
+  display: contents;
+}
+.main-page-events-feature-card-icon16 {
+  width: 5rem;
+  height: 5rem;
+}
+@media(max-width: 767px) {
+  .main-page-events-feature-card-feature-card {
+    flex-direction: row;
+  }
+}
+
+.main-page-faq-question-container {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: auto;
@@ -29,7 +92,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.question1-text {
+.main-page-faq-question-text {
   font-weight: 700;
 }
 
@@ -433,11 +496,7 @@
 .home-events1 {
   flex: 0 0 auto;
   width: 100%;
-  height: auto;
   display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
-  justify-content: center;
 }
 .home-features {
   gap: var(--dl-space-space-threeunits);
@@ -490,7 +549,7 @@
   justify-content: center;
 }
 .home-pricing {
-  padding-top: var(--dl-space-space-fiveunits);
+  min-height: 100vh;
 }
 .home-container04 {
   gap: var(--dl-space-space-unit);
@@ -513,7 +572,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text21 {
+.home-text18 {
   text-transform: uppercase;
 }
 .home-container07 {
@@ -541,7 +600,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text22 {
+.home-text19 {
   line-height: 150%;
 }
 .home-container10 {
@@ -552,7 +611,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text23 {
+.home-text20 {
   line-height: 150%;
 }
 .home-link1 {
@@ -570,7 +629,7 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.home-text24 {
+.home-text21 {
   text-transform: uppercase;
 }
 .home-container12 {
@@ -599,10 +658,10 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text28 {
+.home-text25 {
   line-height: 150%;
 }
-.home-text29 {
+.home-text26 {
   text-decoration: none;
 }
 .home-container15 {
@@ -613,7 +672,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text30 {
+.home-text27 {
   line-height: 150%;
 }
 .home-free-plan-features2 {
@@ -627,7 +686,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text31 {
+.home-text28 {
   line-height: 150%;
 }
 .home-free-plan-features3 {
@@ -641,7 +700,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text32 {
+.home-text29 {
   line-height: 150%;
 }
 .home-free-plan-features4 {
@@ -665,7 +724,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text33 {
+.home-text30 {
   text-transform: uppercase;
 }
 .home-container19 {
@@ -692,7 +751,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text39 {
+.home-text36 {
   line-height: 150%;
 }
 .home-container22 {
@@ -703,14 +762,14 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text41 {
+.home-text38 {
   line-height: 150%;
 }
 .home-button {
   width: 100%;
   position: relative;
 }
-.home-text42 {
+.home-text39 {
   width: 100%;
   font-style: normal;
   text-align: center;
@@ -722,7 +781,6 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
   justify-content: center;
 }
 .home-faq1 {
@@ -744,10 +802,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text48 {
+.home-text42 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text49 {
+.home-text43 {
   text-align: left;
 }
 .home-container24 {
@@ -815,6 +873,9 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
+  .home-container03 {
+    padding-bottom: 0px;
+  }
   .home-container05 {
     align-items: center;
     flex-direction: column;
@@ -832,7 +893,7 @@
     width: 100%;
     max-width: 450px;
   }
-  .home-text49 {
+  .home-text43 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -908,7 +969,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text49 {
+  .home-text43 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
