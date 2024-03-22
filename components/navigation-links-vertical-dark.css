@@ -1,63 +1,63 @@
-.navigation-links-vertical-nav {
+.navigation-links-vertical-dark-nav {
   flex: 0 0 auto;
   display: flex;
+  align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.navigation-links-vertical-navlink {
-  color: #ffffff;
+.navigation-links-vertical-dark-navlink {
+  color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link {
-  color: #ffffff;
+.navigation-links-vertical-dark-link {
+  color: black;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link1 {
-  color: #ffffff;
+.navigation-links-vertical-dark-link1 {
+  color: black;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link2 {
-  color: #ffffff;
+.navigation-links-vertical-dark-link2 {
+  color: black;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link3 {
-  color: #ffffff;
+.navigation-links-vertical-dark-link3 {
+  color: black;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.navigation-links-vertical-link4 {
-  color: #ffffff;
+.navigation-links-vertical-dark-link4 {
+  color: black;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-
 
 @media(max-width: 767px) {
-  .navigation-links-vertical-nav {
+  .navigation-links-vertical-dark-nav {
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-vertical-link {
+  .navigation-links-vertical-dark-link {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-vertical-link1 {
+  .navigation-links-vertical-dark-link1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-vertical-link2 {
+  .navigation-links-vertical-dark-link2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-vertical-link3 {
+  .navigation-links-vertical-dark-link3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-vertical-link4 {
+  .navigation-links-vertical-dark-link4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
