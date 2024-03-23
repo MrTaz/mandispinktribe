@@ -184,6 +184,74 @@
 
 
 
+.navigation-links-dark-nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.navigation-links-dark-link {
+  color: var(--dl-color-gray-black);
+  text-decoration: none;
+}
+.navigation-links-dark-link1 {
+  color: black;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-dark-link2 {
+  color: var(--dl-color-gray-black);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-dark-link3 {
+  color: black;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-dark-link4 {
+  color: black;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-dark-link5 {
+  color: black;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+@media(max-width: 767px) {
+  .navigation-links-dark-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-dark-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-dark-link1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-dark-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-dark-link3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-dark-link4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-dark-link5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
 .footer-container {
   width: 100%;
   display: flex;
@@ -207,33 +275,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.footer-logo {
+  text-decoration: none;
+}
 .footer-link {
-  text-decoration: none;
-}
-.footer-nav {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: row;
-}
-.footer-home {
-  text-decoration: none;
-}
-.footer-about-us {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.footer-events {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.footer-get-involved {
-  font-size: 16px;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: 150%;
-  margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-separator {

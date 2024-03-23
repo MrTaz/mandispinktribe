@@ -35,6 +35,7 @@
   text-decoration: none;
 }
 
+
 @media(max-width: 767px) {
   .navigation-links-dark-nav {
     align-items: flex-start;
@@ -251,33 +252,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.footer-logo {
+  text-decoration: none;
+}
 .footer-link {
-  text-decoration: none;
-}
-.footer-nav {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: row;
-}
-.footer-home {
-  text-decoration: none;
-}
-.footer-about-us {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.footer-events {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.footer-get-involved {
-  font-size: 16px;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: 150%;
-  margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-separator {

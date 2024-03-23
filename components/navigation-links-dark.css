@@ -35,6 +35,7 @@
   text-decoration: none;
 }
 
+
 @media(max-width: 767px) {
   .navigation-links-dark-nav {
     align-items: flex-start;
