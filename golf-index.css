@@ -1426,7 +1426,10 @@
     margin-left: 0px;
   }
   .golf-tournament-sponsored-by-contracts-risk-management-container06 {
-    display: none;
+    width: 198px;
+    font-size: 24px;
+    margin-top: 75px;
+    margin-left: 10px;
   }
   .golf-tournament-sponsored-by-contracts-risk-management-banner {
     padding-top: var(--dl-space-space-twounits);

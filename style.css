@@ -465,6 +465,39 @@
   right: -100px;
   transform: rotate(-45deg);
 }
+.topLeftCornerRibbon {
+  top: 0px;
+  left: 0px;
+  color: #fff;
+  width: 600px;
+  padding: 5px 0 calc(20px + 5px);
+  z-index: 1000;
+  overflow: hidden;
+  position: fixed;
+  clip-path: polygon(0 100%,0 calc(100% - 20px),50% calc(100% - 20px - 600px/2),100% calc(100% - 20px),100% 100%,calc(100% - 20px) calc(100% - 20px), 20px calc(100% - 20px));
+  font-size: 48px;
+  transform: translate(-29.29%, -100%) rotate(-45deg);
+  background: linear-gradient(rgba(0,0,0,0.6) 0 0) bottom/100% 20px no-repeat var(--dl-color-custom-primary1);
+  margin-top: 106px;
+  text-align: center;
+  margin-left: 10px;
+  transform-origin: bottom right;
+}
+.boxBanner {
+  top: calc(-1*0px);
+  color: var(--dl-color-gray-white);
+  right: 20px;
+  width: 100px;
+  padding: .2em;
+  position: absolute;
+  clip-path: polygon(calc(100% - 0px) 0, 0 0, 0 calc(100% - 50px), calc(50% - 0px/2) 100%, calc(100% - 0px) calc(100% - 50px), calc(100% - 0px) 0px, 100% 0px);
+  font-size: 28px;
+  background: var(--dl-color-custom-primary1);
+  text-align: center;
+  font-weight: bold;
+  border-right: 0px solid #0005;
+  border-bottom: 50px solid #0000;
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
