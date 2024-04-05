@@ -501,6 +501,65 @@
   border-right: 0px solid #0005;
   border-bottom: 50px solid #0000;
 }
+.event-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffc0cb;
+}
+.event-card__title {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.event-card__description {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+.event-card__date-time {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.event-card__location {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.event-card__actions {
+  display: flex;
+  justify-content: center;
+}
+.event-card__action-button {
+  gap: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  padding: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.addToCalendar {
+  color: #ffffff;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  display: inline-block;
+  padding: 16px 31px;
+  font-size: 16px;
+  font-family: Arial;
+  text-shadow: 0px 1px 0px #2f6627;
+  border-radius: 28px;
+  text-decoration: none;
+  background-color: #44c767;
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
