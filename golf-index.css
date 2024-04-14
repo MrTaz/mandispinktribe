@@ -1199,7 +1199,7 @@
   display: contents;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-image08 {
-  width: 175px;
+  width: 200px;
   object-fit: cover;
   text-decoration: none;
 }
@@ -1626,6 +1626,6 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .golf-tournament-sponsored-by-contracts-risk-management-container39 {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
