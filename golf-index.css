@@ -1233,6 +1233,7 @@
   padding: var(--dl-space-space-unit);
 }
 .golf-tournament-sponsored-by-contracts-risk-management-container39 {
+  gap: var(--dl-space-space-unit);
   width: 100%;
   display: grid;
   position: relative;
