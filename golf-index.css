@@ -1343,7 +1343,6 @@
   height: 100px;
   object-fit: contain;
   text-decoration: none;
-  background-color: #6b141f;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-text44 {
   font-size: 0.75rem;
@@ -1365,7 +1364,7 @@
   height: 100px;
   object-fit: contain;
   text-decoration: none;
-  background-color: #262626;
+  background-color: #6b141f;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-text45 {
   font-size: 0.75rem;
@@ -1387,6 +1386,7 @@
   height: 100px;
   object-fit: contain;
   text-decoration: none;
+  background-color: #262626;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-text46 {
   font-size: 0.75rem;
@@ -1396,10 +1396,23 @@
 .golf-tournament-sponsored-by-contracts-risk-management-container47 {
   flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.golf-tournament-sponsored-by-contracts-risk-management-link22 {
+  display: contents;
+}
+.golf-tournament-sponsored-by-contracts-risk-management-image16 {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  text-decoration: none;
+}
+.golf-tournament-sponsored-by-contracts-risk-management-text47 {
+  font-size: 0.75rem;
+  align-self: center;
+  text-align: center;
 }
 .golf-tournament-sponsored-by-contracts-risk-management-container48 {
   flex: 0 0 auto;
