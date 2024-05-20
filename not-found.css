@@ -130,7 +130,7 @@
 .footer-link1 {
   display: contents;
 }
-.footer-image {
+.footer-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
@@ -139,7 +139,7 @@
 .footer-link2 {
   display: contents;
 }
-.footer-icon {
+.footer-image {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
@@ -149,6 +149,15 @@
   display: contents;
 }
 .footer-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footer-link4 {
+  display: contents;
+}
+.footer-icon4 {
   width: 24px;
   height: 24px;
   text-decoration: none;
