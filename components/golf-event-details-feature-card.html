@@ -51,7 +51,7 @@
         letter-spacing: normal;
         line-height: 1.15;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
         null
       }
@@ -155,12 +155,14 @@
     <link rel="stylesheet" href="../style.css" />
     <div>
       <link href="./golf-event-details-feature-card.css" rel="stylesheet" />
-      <div class="golf-event-details-feature-card-feature-card">
+      <div
+        class="golf-event-details-feature-card-feature-card golf-event-details-feature-card"
+      >
         <slot></slot>
-        <h2 class="golf-event-details-feature-card-text">
+        <h2 class="golf-event-details-feature-card-text1">
           <span>Lorem ipsum</span>
         </h2>
-        <span class="golf-event-details-feature-card-text1">
+        <span class="golf-event-details-feature-card-text2">
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem
             lorem, malesuada in metus vitae, scelerisque accumsan ipsum.

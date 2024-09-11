@@ -1,3 +1,6 @@
+.navigation-links-dark-wrapper {
+  display: contents;
+}
 .navigation-links-dark-nav {
   flex: 1;
   display: flex;
@@ -5,22 +8,17 @@
   flex-direction: row;
   justify-content: center;
 }
-.navigation-links-dark-link {
-  color: var(--dl-color-gray-black);
-  text-decoration: none;
-}
 .navigation-links-dark-link1 {
-  color: black;
-  margin-left: var(--dl-space-space-twounits);
+  color: var(--dl-color-gray-black);
   text-decoration: none;
 }
 .navigation-links-dark-link2 {
-  color: var(--dl-color-gray-black);
+  color: black;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navigation-links-dark-link3 {
-  color: black;
+  color: var(--dl-color-gray-black);
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -34,6 +32,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.navigation-links-dark-link6 {
+  color: black;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 
 
 @media(max-width: 767px) {
@@ -41,11 +44,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-dark-link {
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .navigation-links-dark-link1 {
-    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-dark-link2 {
@@ -64,16 +63,20 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links-dark-link6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
 }
 
-.footer-container {
+.footer-container1 {
   width: 100%;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-direction: column;
 }
-.footer-footer {
+.footer-footer1 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -81,7 +84,7 @@
   align-items: center;
   justify-content: center;
 }
-.footer-container1 {
+.footer-container2 {
   gap: var(--dl-space-space-unit);
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -92,7 +95,7 @@
 .footer-logo {
   text-decoration: none;
 }
-.footer-link {
+.footer-link1 {
   text-decoration: none;
 }
 .footer-separator {
@@ -113,7 +116,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.footer-container2 {
+.footer-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -127,19 +130,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.footer-link1 {
-  display: contents;
-}
-.footer-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
 .footer-link2 {
   display: contents;
 }
-.footer-image {
+.footer-icon1 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
@@ -148,7 +142,7 @@
 .footer-link3 {
   display: contents;
 }
-.footer-icon2 {
+.footer-image {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
@@ -157,7 +151,16 @@
 .footer-link4 {
   display: contents;
 }
-.footer-icon4 {
+.footer-icon3 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footer-link5 {
+  display: contents;
+}
+.footer-icon5 {
   width: 24px;
   height: 24px;
   text-decoration: none;
@@ -167,7 +170,7 @@
 
 
 @media(max-width: 767px) {
-  .footer-footer1 {
+  .footer-footer2 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -177,7 +180,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .footer-container2 {
+  .footer-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -187,14 +190,14 @@
   }
 }
 @media(max-width: 479px) {
-  .footer-footer1 {
+  .footer-footer2 {
     padding: var(--dl-space-space-unit);
   }
   .footer-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .footer-container2 {
+  .footer-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;

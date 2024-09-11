@@ -7,15 +7,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.golf-event-details-feature-card-text {
+.golf-event-details-feature-card-text1 {
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.golf-event-details-feature-card-text1 {
+.golf-event-details-feature-card-text2 {
   color: var(--dl-color-gray-700);
 }
-.golf-event-details-feature-card-root-class-name {
+.golf-event-details-feature-cardroot-class-name {
   width: 100%;
 }
 
@@ -23,7 +23,7 @@
 
 
 @media(max-width: 479px) {
-  .golf-event-details-feature-card-text {
+  .golf-event-details-feature-card-text1 {
     font-style: normal;
   }
 }

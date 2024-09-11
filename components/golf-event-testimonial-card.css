@@ -21,12 +21,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.golf-event-testimonial-card-text {
+.golf-event-testimonial-card-text1 {
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.golf-event-testimonial-card-text1 {
+.golf-event-testimonial-card-text2 {
   color: var(--dl-color-gray-500);
   text-align: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -47,10 +47,10 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .golf-event-testimonial-card-text {
+  .golf-event-testimonial-card-text1 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .golf-event-testimonial-card-text1 {
+  .golf-event-testimonial-card-text2 {
     margin-bottom: var(--dl-space-space-twounits);
   }
 }

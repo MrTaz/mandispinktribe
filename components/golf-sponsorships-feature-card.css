@@ -10,25 +10,25 @@
   height: 100px;
   object-fit: cover;
 }
-.golf-sponsorships-feature-card-text {
+.golf-sponsorships-feature-card-text1 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.golf-sponsorships-feature-card-text1 {
+.golf-sponsorships-feature-card-text2 {
   color: var(--dl-color-gray-700);
   text-align: center;
 }
-.golf-sponsorships-feature-card-container2 {
+.golf-sponsorships-feature-card-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   position: relative;
   align-items: flex-start;
 }
-.golf-sponsorships-feature-card-text6 {
+.golf-sponsorships-feature-card-text7 {
   top: 0px;
   right: 0px;
   position: absolute;
