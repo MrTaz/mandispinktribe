@@ -148,10 +148,10 @@
   }
 }
 
-.gallery14-wrapper {
+.comedy-event-details-comedians-feature-card-wrapper {
   display: contents;
 }
-.gallery14-gallery3 {
+.comedy-event-details-comedians-feature-card-gallery3 {
   width: 100%;
   height: auto;
   display: flex;
@@ -161,14 +161,14 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.gallery14-max-width {
+.comedy-event-details-comedians-feature-card-max-width {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.gallery14-section-title {
+.comedy-event-details-comedians-feature-card-section-title {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   display: flex;
@@ -177,7 +177,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.gallery14-content {
+.comedy-event-details-comedians-feature-card-content {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -186,7 +186,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.gallery14-container1 {
+.comedy-event-details-comedians-feature-card-container1 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -194,16 +194,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.gallery14-image1 {
+.comedy-event-details-comedians-feature-card-image1 {
   width: 100%;
   height: 300px;
   max-width: 600px;
   align-self: center;
 }
-.gallery14-link1 {
+.comedy-event-details-comedians-feature-card-link1 {
   display: contents;
 }
-.gallery14-container2 {
+.comedy-event-details-comedians-feature-card-container2 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -212,16 +212,16 @@
   justify-content: center;
   text-decoration: none;
 }
-.gallery14-image2 {
+.comedy-event-details-comedians-feature-card-image2 {
   width: 100%;
   height: 300px;
   max-width: 600px;
   align-self: center;
 }
-.gallery14-link2 {
+.comedy-event-details-comedians-feature-card-link2 {
   display: contents;
 }
-.gallery14-container3 {
+.comedy-event-details-comedians-feature-card-container3 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -230,7 +230,7 @@
   justify-content: center;
   text-decoration: none;
 }
-.gallery14-image3 {
+.comedy-event-details-comedians-feature-card-image3 {
   width: 100%;
   height: 300px;
   max-width: 600px;
@@ -286,21 +286,21 @@
   text-align: center;
 }
 @media(max-width: 991px) {
-  .gallery14-content {
+  .comedy-event-details-comedians-feature-card-content {
     align-items: center;
     flex-direction: column;
   }
-  .gallery14-image1 {
+  .comedy-event-details-comedians-feature-card-image1 {
     flex: 0 0 auto;
     width: 100%;
     height: 360px;
   }
-  .gallery14-image2 {
+  .comedy-event-details-comedians-feature-card-image2 {
     flex: 0 0 auto;
     width: 100%;
     height: 360px;
   }
-  .gallery14-image3 {
+  .comedy-event-details-comedians-feature-card-image3 {
     flex: 0 0 auto;
     width: 100%;
     height: 360px;
@@ -651,6 +651,9 @@
 .comedy-show-text21 {
   text-decoration: none;
 }
+.comedy-show-link2 {
+  display: contents;
+}
 .comedy-show-image3 {
   left: -80px;
   width: 354px;
@@ -658,6 +661,7 @@
   height: 339px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .comedy-show-fragment1 {
   display: contents;
@@ -709,7 +713,7 @@
   display: inline-block;
   text-align: center;
 }
-.comedy-show-link2 {
+.comedy-show-link3 {
   display: contents;
 }
 .comedy-show-container5 {
@@ -730,6 +734,12 @@
   width: 100%;
 }
 @media(max-width: 1200px) {
+  .comedy-show-image3 {
+    left: 0px;
+    width: 250px;
+    bottom: -200px;
+    height: auto;
+  }
   .comedy-show-container5 {
     display: block;
   }
@@ -737,6 +747,9 @@
 @media(max-width: 991px) {
   .comedy-show-text11 {
     text-align: center;
+  }
+  .comedy-show-image3 {
+    position: unset;
   }
 }
 @media(max-width: 767px) {

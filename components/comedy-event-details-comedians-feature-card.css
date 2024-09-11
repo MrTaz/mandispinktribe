@@ -1,0 +1,155 @@
+.comedy-event-details-comedians-feature-card-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.comedy-event-details-comedians-feature-card-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.comedy-event-details-comedians-feature-card-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.comedy-event-details-comedians-feature-card-content {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.comedy-event-details-comedians-feature-card-container1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.comedy-event-details-comedians-feature-card-image1 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+  align-self: center;
+}
+.comedy-event-details-comedians-feature-card-link1 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-container2 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.comedy-event-details-comedians-feature-card-image2 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+  align-self: center;
+}
+.comedy-event-details-comedians-feature-card-link2 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-container3 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.comedy-event-details-comedians-feature-card-image3 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+}
+.comedy-event-details-comedians-feature-card-fragment1 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text18 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment2 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text19 {
+  display: inline-block;
+  text-align: left;
+}
+.comedy-event-details-comedians-feature-card-fragment3 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text22 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment4 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text23 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment5 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text26 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment6 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text27 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment7 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text28 {
+  display: inline-block;
+}
+.comedy-event-details-comedians-feature-card-fragment8 {
+  display: contents;
+}
+.comedy-event-details-comedians-feature-card-text29 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .comedy-event-details-comedians-feature-card-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .comedy-event-details-comedians-feature-card-image1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+  .comedy-event-details-comedians-feature-card-image2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+  .comedy-event-details-comedians-feature-card-image3 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+}
