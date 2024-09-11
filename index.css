@@ -161,7 +161,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-rv7f {
+.main-page-events-feature-card-wrapper-0a2i {
   display: contents;
 }
 .main-page-events-feature-card-container1 {
@@ -185,7 +185,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-riu8 {
+.main-page-events-feature-card-wrapper-0697 {
   display: contents;
 }
 .main-page-events-feature-card-container2 {
@@ -209,7 +209,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-e5rz {
+.main-page-events-feature-card-wrapper-zgbm {
   display: contents;
 }
 .main-page-events-feature-card-container3 {
@@ -250,7 +250,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-j7oi {
+.main-page-faq-question-wrapper-m88b {
   display: contents;
 }
 .main-page-faq-question-container1 {
@@ -267,7 +267,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-5xch {
+.main-page-faq-question-wrapper-1jao {
   display: contents;
 }
 .main-page-faq-question-container2 {
@@ -284,7 +284,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-7ku1 {
+.main-page-faq-question-wrapper-4fnb {
   display: contents;
 }
 .main-page-faq-question-container3 {
@@ -301,7 +301,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-yk7g {
+.main-page-faq-question-wrapper-nsci {
   display: contents;
 }
 .main-page-faq-question-container4 {
@@ -318,7 +318,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-tzf7 {
+.main-page-faq-question-wrapper-llfr {
   display: contents;
 }
 .main-page-faq-question-container5 {
@@ -335,7 +335,7 @@
   font-weight: 700;
 }
 
-.navigation-links-dark-wrapper-izyp {
+.navigation-links-dark-wrapper-52iz {
   display: contents;
 }
 .navigation-links-dark-nav1 {
@@ -852,6 +852,9 @@
 .home-text35 {
   text-transform: uppercase;
 }
+.home-free-plan-description {
+  padding-right: 100px;
+}
 .home-container18 {
   display: flex;
   align-items: center;
@@ -894,6 +897,7 @@
 }
 .home-link3 {
   width: 100%;
+  align-self: center;
   font-style: normal;
   text-align: center;
   font-weight: 700;
@@ -993,6 +997,7 @@
 }
 .home-link4 {
   width: 100%;
+  align-self: center;
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
@@ -1057,6 +1062,7 @@
 .home-navlink5 {
   width: 100%;
   position: relative;
+  align-self: center;
   text-decoration: none;
 }
 .home-text56 {
