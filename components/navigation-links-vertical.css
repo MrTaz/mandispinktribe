@@ -4,39 +4,49 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .navigation-links-vertical-link1 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .navigation-links-vertical-link2 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .navigation-links-vertical-link3 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .navigation-links-vertical-link4 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .navigation-links-vertical-link5 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .navigation-links-vertical-link6 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 
+ 
 
+ 
 
+ 
 @media(max-width: 767px) {
   .navigation-links-vertical-nav {
     align-items: flex-start;
@@ -44,22 +54,22 @@
   }
   .navigation-links-vertical-link2 {
     margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-link3 {
     margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-link4 {
     margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-link5 {
     margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-link6 {
     margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-layout-space-unit);
   }
 }

@@ -1,11 +1,12 @@
 .main-page-events-feature-card-container {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: flex-start;
-  padding-left: var(--dl-space-space-unit);
+  padding-left: var(--dl-layout-space-unit);
   flex-direction: column;
   justify-content: flex-start;
 }
+ 
 @media(max-width: 767px) {
   .main-page-events-feature-card-feature-card {
     flex-direction: row;
