@@ -41,6 +41,12 @@
   text-decoration: none;
 }
  
+.navigation-links-vertical-link7 {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 
  
 
@@ -69,6 +75,10 @@
     margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-link6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .navigation-links-vertical-link7 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }

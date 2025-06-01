@@ -45,6 +45,12 @@
   text-decoration: none;
 }
  
+.navigation-links-dark-link7 {
+  color: black;
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
 
  
 
@@ -74,6 +80,10 @@
     margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-dark-link6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .navigation-links-dark-link7 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
@@ -127,6 +137,12 @@
   text-decoration: none;
 }
  
+.navigation-links-vertical-dark-link7 {
+  color: black;
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 
  
 @media(max-width: 767px) {
@@ -151,6 +167,10 @@
     margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-vertical-dark-link6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .navigation-links-vertical-dark-link7 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
@@ -184,7 +204,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-f4ck {
+.main-page-events-feature-card-wrapper-whoy {
   display: contents;
 }
  
@@ -212,7 +232,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-gwe5 {
+.main-page-events-feature-card-wrapper-8kl0 {
   display: contents;
 }
  
@@ -240,7 +260,7 @@
   }
 }
 
-.main-page-events-feature-card-wrapper-cdce {
+.main-page-events-feature-card-wrapper-o1kw {
   display: contents;
 }
  
@@ -287,7 +307,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-ihrp {
+.main-page-faq-question-wrapper-jo7n {
   display: contents;
 }
  
@@ -306,7 +326,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-2esw {
+.main-page-faq-question-wrapper-wgzm {
   display: contents;
 }
  
@@ -325,7 +345,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-4mwr {
+.main-page-faq-question-wrapper-2f4l {
   display: contents;
 }
  
@@ -344,7 +364,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-w744 {
+.main-page-faq-question-wrapper-0lv1 {
   display: contents;
 }
  
@@ -363,7 +383,7 @@
   font-weight: 700;
 }
 
-.main-page-faq-question-wrapper-vmdz {
+.main-page-faq-question-wrapper-bcu9 {
   display: contents;
 }
  
@@ -382,7 +402,7 @@
   font-weight: 700;
 }
 
-.navigation-links-dark-wrapper-g9lh {
+.navigation-links-dark-wrapper-zvls {
   display: contents;
 }
  
@@ -394,25 +414,19 @@
   justify-content: center;
 }
  
-.navigation-links-dark-link7 {
-  color: var(--dl-color-gray-black);
-  text-decoration: none;
-}
- 
 .navigation-links-dark-link8 {
-  color: black;
-  margin-left: var(--dl-layout-space-twounits);
+  color: var(--dl-color-gray-black);
   text-decoration: none;
 }
  
 .navigation-links-dark-link9 {
-  color: var(--dl-color-gray-black);
+  color: black;
   margin-left: var(--dl-layout-space-twounits);
   text-decoration: none;
 }
  
 .navigation-links-dark-link10 {
-  color: black;
+  color: var(--dl-color-gray-black);
   margin-left: var(--dl-layout-space-twounits);
   text-decoration: none;
 }
@@ -429,6 +443,18 @@
   text-decoration: none;
 }
  
+.navigation-links-dark-link13 {
+  color: black;
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.navigation-links-dark-link14 {
+  color: black;
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
 
  
 
@@ -438,11 +464,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-dark-link7 {
-    margin-bottom: var(--dl-layout-space-unit);
-  }
   .navigation-links-dark-link8 {
-    margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-dark-link9 {
@@ -458,6 +480,14 @@
     margin-bottom: var(--dl-layout-space-unit);
   }
   .navigation-links-dark-link12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .navigation-links-dark-link13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .navigation-links-dark-link14 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
@@ -667,11 +697,12 @@
 }
  
 .home-login1 {
-  display: none;
   margin-right: 32px;
+  text-decoration: none;
 }
  
 .home-register1 {
+  display: none;
   text-decoration: none;
 }
  
@@ -1157,7 +1188,7 @@
   text-decoration: underline;
 }
  
-.home-link4 {
+.home-navlink5 {
   width: 100%;
   align-self: center;
   font-style: normal;
@@ -1241,7 +1272,7 @@
   line-height: 150%;
 }
  
-.home-navlink5 {
+.home-navlink6 {
   width: 100%;
   position: relative;
   align-self: center;
@@ -1308,7 +1339,7 @@
   flex-direction: column;
 }
  
-.home-navlink6 {
+.home-navlink7 {
   display: contents;
 }
  
@@ -1316,7 +1347,7 @@
   text-decoration: none;
 }
  
-.home-navlink7 {
+.home-navlink8 {
   display: contents;
 }
  
@@ -1324,7 +1355,7 @@
   text-decoration: none;
 }
  
-.home-link5 {
+.home-link4 {
   display: contents;
 }
  
@@ -1332,7 +1363,7 @@
   text-decoration: none;
 }
  
-.home-link6 {
+.home-link5 {
   display: contents;
 }
  
@@ -1340,7 +1371,7 @@
   text-decoration: none;
 }
  
-.home-navlink8 {
+.home-navlink9 {
   display: contents;
 }
  
@@ -1348,7 +1379,7 @@
   text-decoration: none;
 }
  
-.home-link7 {
+.home-link6 {
   display: contents;
 }
  
